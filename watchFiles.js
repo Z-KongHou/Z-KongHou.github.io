@@ -5,7 +5,7 @@ const fs = require('fs');
 
 // 文件夹A和文件夹B的路径
 const folderA = path.join(__dirname, 'notebooks');
-const folderB = path.join(__dirname, 'content', 'docs');
+const folderB = path.join(__dirname, 'content', 'docs','learn_python');
 
 
 if (!fs.existsSync(folderB)) {
@@ -21,7 +21,7 @@ chokidar.watch(folderA, { ignored: /^\./, persistent: true })
       const mdFileName = path.basename(filePath, '.ipynb') + '.md';
       
       // 转换命令（不指定 --output-dir 的同时传入目标文件夹）
-      const command = `C:\\Users\\KongHou\\miniconda3\\envs\\jupyter\\Scripts\\jupyter nbconvert --to markdown ${filePath} --output-dir ${folderB}`;
+      const command = `C:\\Users\\KongHou\\miniconda3\\envs\\jupyter\\Scripts\\jupyter nbconvert --to markdown ${filePath} --output-dir ${folderB} --execute --allow-errors`;
 
       // 执行转换命令
       exec(command, (error, stdout, stderr) => {
