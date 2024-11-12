@@ -1,4 +1,6 @@
+
 # [Lists](https://docs.python.org/3/library/stdtypes.html#lists)
+
 
 ```python
 my_empty_list = []
@@ -6,6 +8,8 @@ print(f"empty list: {my_empty_list}, type: {type(my_empty_list)}")
 ```
 
     empty list: [], type: <class 'list'>
+    
+
 
 ```python
 list_of_ints = [1, 2, 6, 7]
@@ -14,8 +18,10 @@ print(f"lengths: {len(list_of_ints)} and {len(list_of_misc)}")
 ```
 
     lengths: 4 and 6
+    
 
 ## Accessing values
+
 
 ```python
 my_list = ["Python", "is", "still", "cool"]
@@ -25,6 +31,8 @@ print(my_list[3])
 
     Python
     cool
+    
+
 
 ```python
 coordinates = [[12.0, 13.3], [0.6, 18.0], [88.0, 1.1]]  # two dimensional
@@ -34,8 +42,10 @@ print(f"second element of first coordinate: {coordinates[0][1]}")
 
     first coordinate: [12.0, 13.3]
     second element of first coordinate: 13.3
+    
 
 ## Updating values
+
 
 ```python
 my_list = [0, 1, 2, 3, 4, 5]
@@ -49,8 +59,10 @@ print(my_list)
 
     [99, 1, 2, 3, 4, 5]
     [1, 2, 3, 4, 5]
+    
 
 ## Checking if certain value is present in list
+
 
 ```python
 languages = ["Java", "C++", "Go", "Python", "JavaScript"]
@@ -59,6 +71,8 @@ if "Python" in languages:
 ```
 
     Python is there!
+    
+
 
 ```python
 if 6 not in [1, 2, 3, 7]:
@@ -66,8 +80,10 @@ if 6 not in [1, 2, 3, 7]:
 ```
 
     number 6 is not present
+    
 
 ## List are mutable
+
 
 ```python
 original = [1, 2, 3]
@@ -77,8 +93,10 @@ print(f"original: {original}, modified: {modified}")
 ```
 
     original: [99, 2, 3], modified: [99, 2, 3]
+    
 
 You can get around this by creating new `list`:
+
 
 ```python
 original = [1, 2, 3]
@@ -90,8 +108,10 @@ print(f"original: {original}, modified: {modified}")
 ```
 
     original: [1, 2, 3], modified: [99, 2, 3]
+    
 
 ## `list.append()`
+
 
 ```python
 my_list = [1]
@@ -100,8 +120,10 @@ print(my_list)
 ```
 
     [1, 'ham']
+    
 
 ## `list.remove()`
+
 
 ```python
 my_list = ["Python", "is", "sometimes", "fun"]
@@ -117,8 +139,10 @@ else:
 
     ['Python', 'is', 'fun']
     Java is not part of this story.
+    
 
 ## `list.sort()`
+
 
 ```python
 numbers = [8, 1, 6, 5, 10]
@@ -136,10 +160,11 @@ print(f"words: {words}")
     numbers: [1, 5, 6, 8, 10]
     numbers reversed: [10, 8, 6, 5, 1]
     words: ['a', 'is', 'list', 'of', 'this', 'words']
+    
 
 ## `sorted(list)`
-
 While `list.sort()` sorts the list in-place, `sorted(list)` returns a new list and leaves the original untouched:
+
 
 ```python
 numbers = [8, 1, 6, 5, 10]
@@ -147,12 +172,16 @@ sorted_numbers = sorted(numbers)
 print(f"{numbers=}, {sorted_numbers=}")
 ```
 
+
       File "<fstring>", line 1
         (numbers=)
                 ^
     SyntaxError: invalid syntax
+    
+
 
 ## `list.extend()`
+
 
 ```python
 first_list = ["beef", "ham"]
@@ -161,12 +190,16 @@ first_list.extend(second_list)
 print(f"{first_list=}, {second_list=}")
 ```
 
+
       File "<fstring>", line 1
         (first_list=)
                    ^
     SyntaxError: invalid syntax
+    
+
 
 Alternatively you can also extend lists by summing them:
+
 
 ```python
 first = [1, 2, 3]
@@ -175,12 +208,16 @@ first += second  # same as: first = first + second
 print(f"{first=}")
 ```
 
+
       File "<fstring>", line 1
         (first=)
               ^
     SyntaxError: invalid syntax
+    
+
 
 ## `list.reverse()`
+
 
 ```python
 my_list = ["a", "b", "ham"]
@@ -189,3 +226,4 @@ print(my_list)
 ```
 
     ['ham', 'b', 'a']
+    
