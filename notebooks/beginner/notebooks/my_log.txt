@@ -1,0 +1,6 @@
+2024-11-27 00:53:57,834 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-11-27 00:53:57,834 | MyFileLogger | ERROR      | John Doe visits our place
+2024-11-27 00:58:48,620 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-11-27 00:58:48,620 | MyFileLogger | ERROR      | John Doe visits our place
+2024-11-27 00:59:16,275 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-11-27 00:59:16,276 | MyFileLogger | ERROR      | John Doe visits our place
