@@ -1,9 +1,9 @@
 ---
-title: Documentation
+title: Beginner
 next: first-page
 ---
 
-This is a demo of the theme's documentation layout.
+This is the Beginner book.
 
 ## Hello, World!
 

@@ -23,11 +23,11 @@ print(f"date: {local_now.date()}")
 print(f"time: {local_now.time()}")
 ```
 
-    local now: 2024-11-27 00:59:15.974067
-    utc now: 2024-11-26 16:59:15.974067
-    2024 11 27 0 59 15
-    date: 2024-11-27
-    time: 00:59:15.974067
+    local now: 2024-12-02 20:26:06.234595
+    utc now: 2024-12-02 12:26:06.234595
+    2024 12 2 20 26 6
+    date: 2024-12-02
+    time: 20:26:06.234595
     
 
 ### `strftime()`
@@ -42,8 +42,8 @@ formatted2 = local_now.strftime("date: %Y-%m-%d time:%H:%M:%S")
 print(formatted2)
 ```
 
-    2024/11/27-00:59:15
-    date: 2024-11-27 time:00:59:15
+    2024/12/02-20:26:06
+    date: 2024-12-02 time:20:26:06
     
 
 ### `strptime()`
@@ -72,7 +72,7 @@ print(f"days: {delta.days}, seconds: {delta.seconds}")
 print(f"total seconds: {delta.total_seconds()}")
 ```
 
-    tomorrow this time: 2024-11-28 00:59:15.974067
+    tomorrow this time: 2024-12-03 20:26:06.234595
     tomorrow - now = 1 day, 0:00:00
     days: 1, seconds: 0
     total seconds: 86400.0
@@ -181,8 +181,8 @@ logger.warning("Something bad is going to happen")
 logger.error("Uups, it already happened")
 ```
 
-    2024-11-27 00:59:16,253 | MyLogger     | WARNING    | Something bad is going to happen
-    2024-11-27 00:59:16,254 | MyLogger     | ERROR      | Uups, it already happened
+    2024-12-02 20:26:06,573 | MyLogger     | WARNING    | Something bad is going to happen
+    2024-12-02 20:26:06,573 | MyLogger     | ERROR      | Uups, it already happened
     
 
 ### 记录到文件
@@ -231,8 +231,8 @@ rand = random.random()
 print(f"random float between 0-1: {rand}")
 ```
 
-    random integer between 1-100: 35
-    random float between 0-1: 0.6466600811684344
+    random integer between 1-100: 61
+    random float between 0-1: 0.34008784410324366
     
 
 如果你需要伪随机数，可以为随机数设置 seed。这将重现输出（尝试多次运行该单元格）：

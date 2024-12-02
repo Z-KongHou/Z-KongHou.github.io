@@ -18,11 +18,11 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Beginner
+      pageRef: /Beginner
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: Intermediate
+      pageRef: /Intermediate
       weight: 2
     - name: Contact ↗
       url: "https://github.com/imfing"

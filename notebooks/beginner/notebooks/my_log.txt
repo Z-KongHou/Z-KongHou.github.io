@@ -4,3 +4,7 @@
 2024-11-27 00:58:48,620 | MyFileLogger | ERROR      | John Doe visits our place
 2024-11-27 00:59:16,275 | MyFileLogger | WARNING    | Oops something is going to happen
 2024-11-27 00:59:16,276 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-02 20:22:55,231 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-02 20:22:55,232 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-02 20:26:06,596 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-02 20:26:06,596 | MyFileLogger | ERROR      | John Doe visits our place
