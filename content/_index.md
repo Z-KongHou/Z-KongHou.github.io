@@ -8,8 +8,8 @@ Welcome to learn Python.
 ## Explore
 
 {{< cards >}}
-{{< card link="Beginner" title="PY Learning Beginner" icon="book-open" >}}
-{{< card link="Intermediate" title="PY Learning Intermediate" icon="book-open">}}
+{{< card link="beginner" title="PY Learning Beginner" icon="book-open" >}}
+{{< card link="intermediate" title="PY Learning Intermediate" icon="book-open">}}
 {{< /cards >}}
 
 ## Documentation

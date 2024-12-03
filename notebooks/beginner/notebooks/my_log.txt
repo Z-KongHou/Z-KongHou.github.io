@@ -8,3 +8,15 @@
 2024-12-02 20:22:55,232 | MyFileLogger | ERROR      | John Doe visits our place
 2024-12-02 20:26:06,596 | MyFileLogger | WARNING    | Oops something is going to happen
 2024-12-02 20:26:06,596 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-02 20:33:36,633 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-02 20:33:36,634 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-02 20:58:23,538 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-02 20:58:23,539 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-02 21:02:10,731 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-02 21:02:10,732 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-02 21:21:40,018 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-02 21:21:40,018 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-03 09:52:16,424 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-03 09:52:16,425 | MyFileLogger | ERROR      | John Doe visits our place
+2024-12-03 09:58:32,479 | MyFileLogger | WARNING    | Oops something is going to happen
+2024-12-03 09:58:32,480 | MyFileLogger | ERROR      | John Doe visits our place

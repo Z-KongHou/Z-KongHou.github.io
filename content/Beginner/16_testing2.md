@@ -18,17 +18,17 @@ ipytest.autoconfig()
 
     Requirement already satisfied: pytest in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages
     Requirement already satisfied: packaging in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: attrs>=19.2.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: atomicwrites>=1.0; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: iniconfig in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: py>=1.8.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: tomli>=1.0.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: pluggy<2.0,>=0.12 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: atomicwrites>=1.0; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from packaging->pytest)
-    Requirement already satisfied: zipp>=0.5 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
     Requirement already satisfied: typing-extensions>=3.6.4; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
+    Requirement already satisfied: zipp>=0.5 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
     
 
     You are using pip version 9.0.1, however version 24.3.1 is available.
@@ -36,20 +36,20 @@ ipytest.autoconfig()
     
 
     Requirement already satisfied: ipytest in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages
-    Requirement already satisfied: ipython in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
     Requirement already satisfied: pytest>=5.4 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
+    Requirement already satisfied: ipython in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
     Requirement already satisfied: packaging in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
-    Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
-    Requirement already satisfied: atomicwrites>=1.0; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
+    Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: attrs>=19.2.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: tomli>=1.0.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
-    Requirement already satisfied: py>=1.8.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
-    Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: iniconfig in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: pluggy<2.0,>=0.12 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
+    Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
+    Requirement already satisfied: py>=1.8.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
+    Requirement already satisfied: atomicwrites>=1.0; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from packaging->ipytest)
-    Requirement already satisfied: zipp>=0.5 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest>=5.4->ipytest)
     Requirement already satisfied: typing-extensions>=3.6.4; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest>=5.4->ipytest)
+    Requirement already satisfied: zipp>=0.5 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest>=5.4->ipytest)
     
 
     You are using pip version 9.0.1, however version 24.3.1 is available.
@@ -126,7 +126,7 @@ def test_increase_age_with_negative_number(default_person):
 ```
 
     [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                                                         [100%][0m
-    [32m[32m[1m4 passed[0m[32m in 0.02s[0m[0m
+    [32m[32m[1m4 passed[0m[32m in 0.03s[0m[0m
     
 
 通过使用fixture，我们可以在所有四个测试用例中使用相同的 default_person！
@@ -163,5 +163,5 @@ def test_replace_names(original, new_name, expected):
 ```
 
     [32m.[0m[32m.[0m[32m.[0m[32m                                                                                          [100%][0m
-    [32m[32m[1m3 passed[0m[32m in 0.01s[0m[0m
+    [32m[32m[1m3 passed[0m[32m in 0.02s[0m[0m
     

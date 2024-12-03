@@ -4,8 +4,8 @@ const path = require('path');
 
 // 文件夹路径
 const folders = [
-  { input: './notebooks/beginner/notebooks', output: './content/Beginner/Content' },
-  { input: './notebooks/intermediate/notebooks', output: './content/Intermediate/Content' }
+  { input: './notebooks/beginner/notebooks', output: './content/beginner' },
+  { input: './notebooks/intermediate/notebooks', output: './content/intermediate' }
 ];
 
 // 用于记录文件处理状态

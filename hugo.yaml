@@ -19,10 +19,10 @@ markup:
 menu:
   main:
     - name: Beginner
-      pageRef: /Beginner
+      pageRef: /beginner
       weight: 1
     - name: Intermediate
-      pageRef: /Intermediate
+      pageRef: /intermediate
       weight: 2
     - name: Contact ↗
       url: "https://github.com/imfing"
@@ -53,4 +53,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/"

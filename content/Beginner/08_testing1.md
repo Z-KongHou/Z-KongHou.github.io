@@ -40,17 +40,17 @@ ipytest.autoconfig()
 ```
 
     Requirement already satisfied: pytest in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages
-    Requirement already satisfied: tomli>=1.0.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: py>=1.8.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: attrs>=19.2.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: atomicwrites>=1.0; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: pluggy<2.0,>=0.12 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: packaging in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: iniconfig in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
-    Requirement already satisfied: zipp>=0.5 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
+    Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: tomli>=1.0.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: pluggy<2.0,>=0.12 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: py>=1.8.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: atomicwrites>=1.0; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
+    Requirement already satisfied: packaging in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest)
     Requirement already satisfied: typing-extensions>=3.6.4; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
+    Requirement already satisfied: zipp>=0.5 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
     Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from packaging->pytest)
     
 
@@ -59,18 +59,18 @@ ipytest.autoconfig()
     
 
     Requirement already satisfied: ipytest in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages
-    Requirement already satisfied: ipython in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
-    Requirement already satisfied: packaging in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
     Requirement already satisfied: pytest>=5.4 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
-    Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from packaging->ipytest)
+    Requirement already satisfied: packaging in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
+    Requirement already satisfied: ipython in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from ipytest)
+    Requirement already satisfied: iniconfig in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
-    Requirement already satisfied: attrs>=19.2.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
-    Requirement already satisfied: py>=1.8.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: pluggy<2.0,>=0.12 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: tomli>=1.0.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
-    Requirement already satisfied: iniconfig in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
+    Requirement already satisfied: py>=1.8.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: importlib-metadata>=0.12; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
     Requirement already satisfied: atomicwrites>=1.0; sys_platform == "win32" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
+    Requirement already satisfied: attrs>=19.2.0 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from pytest>=5.4->ipytest)
+    Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from packaging->ipytest)
     Requirement already satisfied: typing-extensions>=3.6.4; python_version < "3.8" in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest>=5.4->ipytest)
     Requirement already satisfied: zipp>=0.5 in c:\users\konghou\miniconda3\envs\jupyter\lib\site-packages (from importlib-metadata>=0.12; python_version < "3.8"->pytest>=5.4->ipytest)
     
@@ -113,7 +113,7 @@ def test_sum_of_three_numbers():
 ```
 
     [32m.[0m[32m                                                                                            [100%][0m
-    [32m[32m[1m1 passed[0m[32m in 0.01s[0m[0m
+    [32m[32m[1m1 passed[0m[32m in 0.02s[0m[0m
     
 
 现在继续更改`assert result == 10`这一行，使断言无法看到失败测试的输出。

@@ -1,6 +1,5 @@
 ---
 title: Intermediate
-next: first-page
 ---
 
 This is the Intermediate Book.

@@ -1,6 +1,5 @@
 ---
 title: Beginner
-next: first-page
 ---
 
 This is the Beginner book.

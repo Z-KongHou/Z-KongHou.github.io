@@ -19,7 +19,7 @@ print(f"type: {type(my_instance)}")
 print(f"my_instance.name: {my_instance.name}")
 ```
 
-    my_instance: <__main__.MyFirstClass object at 0x000001A611C18358>
+    my_instance: <__main__.MyFirstClass object at 0x000001CFE7008278>
     type: <class '__main__.MyFirstClass'>
     my_instance.name: John Doe
     
